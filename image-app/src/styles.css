@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .heading {
   font-style: italic;
-  color: blue ;
+  color: blue;
 }
 
 /* top bar */
@@ -39,7 +39,7 @@ body {
   flex-direction: row;
 }
 
-router-outlet + *  {
+router-outlet + * {
   padding: 0 16px;
 }
 
@@ -53,7 +53,8 @@ h2 {
   font-size: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: lighter;
 }
 
