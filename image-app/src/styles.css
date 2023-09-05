@@ -17,8 +17,8 @@ app-top-bar {
   align-items: center;
 }
 
-app-top-bar h1 {
-  color: white;
+app-top-bar h1 a {
+  color: rgb(252, 161, 42);
   margin: 0;
 }
 
@@ -61,3 +61,16 @@ h2 {
 p {
   font-size: 14px;
 }
+
+/* Hyperlink */
+
+a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
