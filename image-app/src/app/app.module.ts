@@ -7,6 +7,9 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { RouterModule } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FileComponent } from './file/file.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonModule } from 'primeng/button';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { FileComponent } from './file/file.component';
 
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
+    ButtonModule,
     HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: LandingPageComponent },
